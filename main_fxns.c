@@ -227,7 +227,7 @@ char **lsh_split_line(char *line)
     position++;
 
     if (position >= bufsize) {
-      bufsize += LSH_T OK_BUFSIZE;
+      /** bufsize += LSH_T OK_BUFSIZE;*/
       tokens_backup= tokens;
       tokens = realloc(tokens, bufsize * sizeof(char*));
       if (!tokens) {
