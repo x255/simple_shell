@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * read_line - Reads a line of input from stdin
  * Return: The input line as a string
