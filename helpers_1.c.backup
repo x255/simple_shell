@@ -1,0 +1,40 @@
+#include "shell.h"
+
+/**
+ * handle_signal - Signal handler implementation
+ * @signal: The signal implementer
+ * read_line - Read input line from stdin and return it
+ * split_line - Split the input line into individual
+ * arguments and return an array of strings
+ * execute_command - Check if the command is a built-in
+ * command and handle it, otherwise launch a process
+ * launch_process - Fork a child process and execute the
+ * external command
+ *
+ *
+ */
+
+void handle_signal(int signal)
+{
+    /* Signal handler implementation */
+}
+
+char *read_line(void)
+{
+    /* Read input line from stdin and return it */
+}
+
+char **split_line(char *line)
+{
+    /* Split the input line into individual arguments and return an array of strings */
+}
+
+int execute_command(char **args)
+{
+    /* Check if the command is a built-in command and handle it, otherwise launch a process */
+}
+
+int launch_process(char **args)
+{
+    /* Fork a child process and execute the external command */
+}
